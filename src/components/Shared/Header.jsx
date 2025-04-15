@@ -1,12 +1,12 @@
 export default function Header() {
   return (
     <header className="bg-gray-50 px-4 py-3 flex flex-col sm:flex-row items-center justify-between shadow-sm gap-3 sm:gap-0">
-      {/* Logo */}
+      
       <h1 className="text-lg font-semibold text-gray-800 sm:ml-6 md:ml-14">
         Dua Page
       </h1>
 
-      {/* Search bar */}
+     
       <div className="w-full sm:flex-1 sm:max-w-sm sm:mx-6 md:mx-12 md:ml-80">
         <div className="relative">
           <input
@@ -33,7 +33,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Avatar & dropdown icon */}
+      
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 rounded-full overflow-hidden border border-gray-300">
           <img

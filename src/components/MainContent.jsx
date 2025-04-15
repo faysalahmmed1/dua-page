@@ -4,7 +4,7 @@ import { Copy, Share2, Volume2, Bookmark } from "lucide-react";
 export default function DuaDetailCard() {
   return (
     <div className="space-y-6 bg-gray-50 h-[100vh] overflow-y-auto">
-      {/* Section Title */}
+      
       <div className="text-sm font-medium text-gray-600 shadow py-3 mx-2">
         <p className="ml-2">
           Section:{" "}
@@ -14,7 +14,7 @@ export default function DuaDetailCard() {
         </p>
       </div>
 
-      {/* Dua Card 1 */}
+     
       <div className="bg-white border border-gray-200 rounded-xl m-2 p-4 shadow-sm">
         <div className="flex items-center text-emerald-600 font-semibold text-base leading-[25px] mb-1">
           <img
@@ -40,7 +40,7 @@ export default function DuaDetailCard() {
           </span>
         </p>
 
-        {/* Icons */}
+        
         <div className="flex justify-end gap-4 mt-4 text-gray-400">
           <Volume2 className="hover:text-emerald-600 cursor-pointer" />
           <Bookmark className="hover:text-emerald-600 cursor-pointer" />
@@ -49,7 +49,7 @@ export default function DuaDetailCard() {
         </div>
       </div>
 
-      {/* Dua Card 2 */}
+      
       <div className="bg-white border border-gray-200 rounded-xl m-2 p-5 shadow-sm">
         <div className="flex items-center text-emerald-600 font-semibold text-base leading-[25px] mb-1">
           <img
@@ -72,13 +72,13 @@ export default function DuaDetailCard() {
           except according to a known measure.” (Sura Al-Hijr 15:21)
         </p>
 
-        {/* Arabic Dua */}
+        
         <div className="text-center text-xl leading-loose font-[Scheherazade] mt-4 text-gray-900">
           لا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ
           وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ...
         </div>
 
-        {/* Transliteration */}
+        
         <p className="text-sm italic text-gray-600 mt-4">
           Transliteration:
           <span className="not-italic block text-gray-700 mt-1">
@@ -89,19 +89,19 @@ export default function DuaDetailCard() {
           </span>
         </p>
 
-        {/* Translation */}
+        
         <p className="text-sm text-gray-700 mt-2">
           <strong>Translation:</strong> There is none worthy of worship except
           Allah...
         </p>
 
-        {/* Reference */}
+      
         <p className="mt-4 text-sm text-emerald-700 font-medium">
           Reference:
           <span className="block text-gray-600 font-normal">Bukhari: 844</span>
         </p>
 
-        {/* Footer Icons */}
+       
         <div className="flex justify-between items-center mt-4">
           <img src="assets/image/Group-120.png" alt="Decoration" />
           <div className="flex gap-4 text-gray-400">

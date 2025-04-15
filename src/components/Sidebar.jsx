@@ -12,7 +12,7 @@ export default function CategoriesSidebar() {
         Categories
       </h2>
 
-      {/* Search Box */}
+      
       <div className="relative px-4 pt-4">
         <input
           type="text"
@@ -24,9 +24,9 @@ export default function CategoriesSidebar() {
         <Search className="absolute right-7 top-[22px] h-4 w-4 text-gray-700" />
       </div>
 
-      {/* Category Cards */}
+      
       <div className="mt-4 px-4 pb-4 space-y-2 text-sm">
-        {/* Clickable Expandable Card */}
+        
         <div
           onClick={() => setIsExpanded(!isExpanded)}
           className="flex items-center gap-3 bg-gray-100 rounded-xl p-3 border border-green-300 cursor-pointer transition duration-200 hover:bg-gray-200"
@@ -48,7 +48,7 @@ export default function CategoriesSidebar() {
           </div>
         </div>
 
-        {/* Expandable Subtopics */}
+       
         {isExpanded && (
           <div className="ml-6 mt-2 pl-3 border-l-2 border-dotted border-green-500 space-y-[10px] text-[13px] leading-5">
             <p className="text-green-600 font-semibold cursor-pointer hover:underline">
@@ -67,7 +67,7 @@ export default function CategoriesSidebar() {
           </div>
         )}
 
-        {/* Other Static Cards */}
+        
         {[1, 2].map((_, idx) => (
           <div
             key={idx}

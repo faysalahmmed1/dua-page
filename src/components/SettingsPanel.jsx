@@ -34,7 +34,7 @@ export default function SettingsPanel() {
 
   return (
     <>
-      {/* Toggle Button for Mobile */}
+      
       <button
         onClick={() => setShowSidebar(!showSidebar)}
         className="lg:hidden p-2 m-2 bg-gray-200 rounded-md fixed top-4 left-4 z-50"
@@ -42,7 +42,7 @@ export default function SettingsPanel() {
         Settings
       </button>
 
-      {/* Sidebar */}
+     
       <aside
         className={`
           fixed top-0 right-0 h-full bg-white border-l p-4 z-40 transform transition-transform duration-300
