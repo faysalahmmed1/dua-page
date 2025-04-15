@@ -7,8 +7,8 @@ export default function CategoriesSidebar() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <div className="w-80 h-[100vh] bg-white shadow overflow-y-auto">
-      <h2 className="text-center text-white bg-green-600 py-3 text-base font-medium rounded">
+    <div className="w-full sm:w-64 md:w-72 lg:w-80 h-screen bg-white shadow overflow-y-auto">
+      <h2 className="text-center text-white bg-green-600 py-3 text-base font-medium rounded-t">
         Categories
       </h2>
 
@@ -67,7 +67,7 @@ export default function CategoriesSidebar() {
           </div>
         )}
 
-        {/* Other Static Cards (Optional) */}
+        {/* Other Static Cards */}
         {[1, 2].map((_, idx) => (
           <div
             key={idx}
